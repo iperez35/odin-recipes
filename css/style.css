@@ -10,3 +10,22 @@ h2 {
     color: brown;
 }
 
+.wikipedia-link:link {
+color: blue;
+}
+
+.wikipedia-link:visited {
+color: red;
+}
+
+.recipe-link:link {
+color: blue;
+}
+
+.recipe-link:visited {
+color: red;
+}
+
+#main-link:visited {
+color: red;
+}
