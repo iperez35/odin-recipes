@@ -1,31 +1,43 @@
 body {
     background:wheat;
+    font-family: Fantasy,'Times New Roman', Times, serif;
+    font-size: medium;
 }
 
-#maintitle {
-    color: brown;
+img {
+    height: auto;
+    width: 600px;
 }
 
 h2 {
     color: brown;
 }
 
+.only-paragraph {
+    text-align: center;
+    border: 2px solid brown;
+    margin: 0;
+    padding: 1rem;
+    width: 50%;
+    font-size: large;
+}
+
+#maintitle {
+    color: brown;
+}
+
 .wikipedia-link:link {
-color: blue;
+color: red;
 }
 
 .wikipedia-link:visited {
-color: red;
+    color: green ;
 }
 
 .recipe-link:link {
-color: blue;
+    color: red;
 }
 
 .recipe-link:visited {
-color: red;
-}
-
-#main-link:visited {
-color: red;
+color: green;
 }
