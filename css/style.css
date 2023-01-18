@@ -2,6 +2,7 @@ body {
     background:wheat;
     font-family: Fantasy,'Times New Roman', Times, serif;
     font-size: medium;
+    text-align: center;
 }
 
 img {
@@ -16,7 +17,7 @@ h2 {
 .only-paragraph {
     text-align: center;
     border: 2px solid brown;
-    margin: 0;
+    margin: 1rem auto;
     padding: 1rem;
     width: 50%;
     font-size: large;
@@ -24,6 +25,7 @@ h2 {
 
 #maintitle {
     color: brown;
+    margin: 3rem 1rem;
 }
 
 .wikipedia-link:link {
@@ -40,4 +42,19 @@ color: red;
 
 .recipe-link:visited {
 color: green;
+}
+
+.ul-list {
+    font-size: large;
+    text-align: left;
+    list-style-position: inside;
+    margin: 0rem 34rem;
+    padding: 5%;
+    width: 50% 
+}
+
+.ol-list {
+    font-size: large;
+    text-align: center;
+    list-style-position: inside;
 }
